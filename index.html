@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>We Tranfer</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aa.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.js"></script>
+
+</head>
+<body>
+<div class="input-contain">
+    <div class="circle circle-quill">
+        logo
+    </div>
+    <div class="circle circle-paper">
+        logo
+    </div>
+    <h2 class="info">Ajouter vos fichiers</h2>
+    <h2 class="success">Success!</h2>
+    <form action="/" method="post" class="dropzone" id="my-awesome-dropzone"></form>
+   <form class="sub-form">
+            <input type="text" id="firstname" name="firstname" placeholder="Envoyer à" required maxlength="100" />
+            <input type="email" placeholder="Votre adresse e-mail" name="email" required="required" />
+            <textarea placeholder="Message" id="message" name="message"></textarea>
+            <div class="allsub">
+                <div class="submit">Contact Us Today</div>
+                <div class="submit-under"></div>
+            </div>
+            <svg class="loader" x="0px" y="0px" width="55px" height="55px" viewBox="0 0 55 55" enable-background="new 0 0 55 55" xml:space="preserve">
+             <circle fill="none" stroke-linecap="round" stroke="#B29EAC" stroke-width="2" stroke-miterlimit="10" cx="27.583" cy="27.334" r="26.583"/>
+            </svg>
+            <svg class="loader2" x="0px" y="0px" width="55px" height="55px" viewBox="0 0 55 55" enable-background="new 0 0 55 55" xml:space="preserve">
+                <circle fill="none" stroke-linecap="round" stroke="#B29EAC" stroke-width="2" stroke-miterlimit="10" cx="27.583" cy="27.334" r="26.583"/>
+            </svg>
+            <p class="success-dialog">
+                We’ll be in touch shortly.<br>
+                In the meantime, <br>
+                check out our <br>
+                <a href="#">weekly offerings.</a>
+            </p>
+
+    </form>
+</div><!--input-contain-->
+<script src="js/main.js"></script>
+</body>
+</html>
