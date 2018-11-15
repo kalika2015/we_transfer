@@ -2,13 +2,13 @@
 html, body {
     margin: 0;
     padding: 0;
-    abackground: url("https://avatars.mds.yandex.net/get-pdb/25978/8c598b9b-0574-4c8d-bc60-4beae3d5f842/orig") #222 no-repeat fixed;
+    background: url("../images/latest-paint-colours-living-room-best-cars-reviews_113986.jpg") #222 no-repeat fixed;
     background-size: cover;
     font-family: 'Lato', sans-serif;
 }
 
 .input-contain {
-    background: #faf5f3;
+    background: #edd8c7;
     width: 350px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -21,13 +21,12 @@ html, body {
     border-radius: 20px;
 }
 h2 {
-    text-transform: uppercase;
     text-align: center;
     font-size: 18px;
     color: #4e3332;
     letter-spacing: 0.061em;
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
 }
 .success {
      color: #356e64;
@@ -53,28 +52,26 @@ a:hover {
      color: #c08159;
      transition: 0.4s all ease;
  }
-input {
+input, textarea {
     width: 100%;
-    background: #fff;
+    height: 20px;
+    border-radius: 5px;
     text-align: center;
     margin-bottom: 25px;
     box-shadow: none;
-    appearance: none;
-    border: none;
     border-top: 1px solid #fff;
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
     border-bottom: 1px solid #faf5f3;
     padding-top: 8px;
     padding-bottom: 8px;
-    text-transform: uppercase;
-    font-size: 11px;
+    font-size: 15px;
     position: relative;
     z-index: 500;
     letter-spacing: 0.06em;
 }
-input:focus {
-     border: 1px solid #faf5f3;
+input:focus, textarea:focus {
+     border: 1px solid #d6312d;
      outline: none;
      appearance: none;
  }
@@ -86,36 +83,40 @@ input:-webkit-autofill {
     padding-top: 12px;
     padding-bottom: 12px;
     border: none;
-    text-transform: uppercase;
+    border-radius: 5px;
     font-size: 11px;
     position: relative;
     z-index: 500;
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
-    background: #ec7242;
+    background: #d6312d;
     color: #fff;
     width: 101%;
     transition: 0.8s all ease;
 }
 .submit:hover {
-     background: #d6673c;
+     background: #e12920;
+    border: 1px solid #e12924;
+    font-size: 14px;
      transform: translateY(1px);
      transition: 0.4s all ease;
  }
-#firstname { margin-top: 20px; }
+#firstname {margin-top: 0px;}
+
+#nom {margin-top: 25px;}
 
 .circle {
     padding: 15px;
     height: 25px;
     width: 25px;
-    margin-top: -80px;
-    margin-left: 115px;
     position: absolute;
     z-index: 20;
     border-radius: 50%;
     clear: both;
     opacity: 0.8;
+    top: 19px;
+    left: 207px;
 }
 
 .circle-quill {
@@ -129,24 +130,26 @@ input:-webkit-autofill {
 }
 
 .submit-under, .loader, .loader2, .circle-paper, p.success-dialog, h2.success {
-    visibility: hidden;
+    display: none;
 }
 
 .submit-under {
-    background: #8c6e7a;
+    background: #d6312d;
     width: 291px;
     height: 45px;
-    margin-top: -40px;
-    margin-left: -4px;
-    position: absolute;
-    z-index: -1;
-}
-
-.loader, .loader2 {
     position: absolute;
     z-index: -5;
     margin-top: -45px;
-    margin-left: 114px;
+    margin-left: 19px;
+}
+.loader, .loader2 {
+    width: 291px;
+    height: 45px;
+    position: absolute;
+    z-index: -5;
+    margin-top: -45px;
+    margin-left: 19px;
+
 }
 
 
@@ -218,7 +221,7 @@ ol,ul {
     line-height: 200px;
     color: rgba(255,255,255, 0.8);
 }
-.slideshow li:nth-child(1) span { background-image: url(http://rcgearing.com/wp-content/uploads/2018/05/colors-full-hd-wallpaper-and-background-image-1920x1200-id-379525-con-fondo-pantalla-hd-color-e-379525-fondo-pantalla-hd-color-1920x1200px.jpg) }
+.slideshow li:nth-child(1) span { background-image: url('../images/latest-paint-colours-living-room-best-cars-reviews_113986.jpg') }
 .slideshow li:nth-child(2) span {
     background-image: url(https://25.media.tumblr.com/aff8a8a33156a0eda844140764fd4359/tumblr_mzgz3tBAAU1st5lhmo1_1280.jpg);
     -webkit-animation-delay: 6s;
@@ -244,7 +247,7 @@ ol,ul {
     animation-delay: 18s;
 }
 .slideshow li:nth-child(5) span {
-    background-image: url(https://24.media.tumblr.com/b94dbb2a392198d5cc39c19959598229/tumblr_n0hpthN8VH1st5lhmo1_1280.jpg);
+    background-image: url("../images/background.png");
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
@@ -252,7 +255,7 @@ ol,ul {
     animation-delay: 24s;
 }
 .slideshow li:nth-child(6) span {
-    background-image: url(https://31.media.tumblr.com/67d222ee577fc35faca83f0e08efc48e/tumblr_mzzqt7wyEU1st5lhmo1_1280.jpg);
+    background-image: url("../images/sidebar-header.png");
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
