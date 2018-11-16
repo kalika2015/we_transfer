@@ -37,7 +37,7 @@ $(document).ready(function(){
         tl.to($(".success"), 0.5, {scaleY:1, opacity: 1}, "success+=1");
         tl.to($(".success-dialog"), 1, {opacity: 1}, "success+=1");
         tl.to(loaders, 0.5, {scaleY:0, stroke:"#d6312d", transformOrigin:"50% 50%"}, "success");
-        tl.to(form, 0.5, {css:{backgroundColor:"#7aada5"}}, "success");
+        tl.to(form, 0.5, {css:{backgroundColor:"#faf5f3"}}, "success");
     });
 });
 

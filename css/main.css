@@ -14,7 +14,7 @@ html, body {
     margin-bottom: 50px;
     position: absolute;
     z-index: 10;
-    padding: 60px 60px 80px;
+    padding: 60px 60px 20px ;
     left: 20%;
     margin-left: -230px;
     opacity: 0.85;
@@ -104,29 +104,31 @@ input:-webkit-autofill {
  }
 #firstname {margin-top: 0px;}
 
-#nom {margin-top: 25px;}
+#nom {margin-top: -25px;}
 
 .circle {
     padding: 15px;
-    height: 25px;
-    width: 25px;
+    height: 60px;
+    width: 60px;
     position: absolute;
     z-index: 20;
     border-radius: 50%;
     clear: both;
     opacity: 0.8;
-    top: 19px;
-    left: 207px;
+    top: 10px;
+    left: 200px;
 }
-
-.circle-quill {
+.circle img{
+    margin-left: -25px;
+}
+circle-quill {
     border: 1px solid #faf5f3;
     background: #fff;
 }
 
 .circle-paper {
-    border: 1px solid #7aada5;
-    background: #7aada5;
+    border: 1px solid #faf5f3;
+    background: #faf5f3;
 }
 
 .submit-under, .loader, .loader2, .circle-paper, p.success-dialog, h2.success {
